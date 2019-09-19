@@ -1,0 +1,8 @@
+1.create one Dynamic web project
+2.File> new > Dynamic Web Project >next  >next> generate web.xml > Finish
+3.Add jersey jars (11 jars)  http:jersey.io/download.html
+4.open web.xml and Configure Web.xml   (ctrl+shift+T) to servletcontainer
+5.write provider class in  src folder
+6.give @Path to provier class
+7.every method inside provider in(GET,POST,PUT,DELETE....)
+8.Run on Server   /rest/classpath/methodpath....
